@@ -4,8 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form-Fill-Up</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+   <main>
+    <section>
+        <h1>Please Fill Up The Form </h1>
+        <form>
+             <label for="Name">Name:
+                <input id="Name" type="text" placeholder="Your Name">
+             </label>
+             <br>
+             <br>
+             <label for="Email">Email:
+                <input  type="email" name="Email" id="Email" placeholder="Email">
+             </label>
+             <br>
+             <br>
+             <fieldset>
+                      <legend> Tree Varieties</legend>
+             <label for="Fruit">
+                 <input type="radio" name="Fruit" id="Fruit"> Fruit
+             </label>
+             <label for="Flower">
+                  <input type="radio"name="Flower" id="Flower">Flower
+             </label>
+             </fieldset>
+             <br>
+
+             <br>
+             <fieldset>
+                <legend> Pick one or More Tree</legend>
+             <label for="Fruit">
+                <input type="checkbox" name="tree" id="Fruit"> Fruit
+            <label for="Flower">
+                 <input type="checkbox" name="tree" id="Flower"> Flower
+            </label>
+            <label for="vegetable">
+                 <input type="checkbox" name="tree" id="vegetable">Vegetable
+            </label>
+             </label>
+             </fieldset>
+             <br>
+             <br>
+              <fieldset>
+                <legend> Special Instruction </legend>
+                <textarea name="" id=""></textarea>
+              </fieldset>
+              <br>
+              <input type="reset" value="Reset">
+              <br>
+              <br>
+              <input type="Submit" value="Submit">
+    </section>
+   </main>
 </body>
 </html>
